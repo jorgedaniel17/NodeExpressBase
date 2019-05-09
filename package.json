@@ -1,14 +1,14 @@
 {
-  "name": "node-express-mongo",
+  "name": "chat-bot-finning",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=app nodemon server/server.js"
+    "start": "set DEBUG=* & nodemon server/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Vidal",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -16,7 +16,6 @@
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.20",
     "morgan": "^1.9.1"
   },
   "nodemonConfig": {
